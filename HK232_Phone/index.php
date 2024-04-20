@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LNTT laptop - "Vua" Laptop</title>
+    <title>HHA Phone - "Vua" Phone</title>
     <meta name="description" content="Trang web bán laptop chất lượng với giá cả hợp lý.">
     <meta name="keywords" content="laptop, mua laptop, giá laptop">
     <link rel="icon" href="./img/ltnn.png">
@@ -36,6 +36,8 @@
         crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -43,6 +45,8 @@
         <?php
         include ("pages/header.php")
             ?>
+            <div style="height: 300px;" class="w-100 h1"></div>
+        <?php include ("pages/footer.php") ?>
     </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

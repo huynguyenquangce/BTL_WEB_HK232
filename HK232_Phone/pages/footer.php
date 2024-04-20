@@ -1,89 +1,82 @@
-<footer>
-            <div class="newsletter" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-                <h3 class="newsletter__heading">Đăng ký nhận tin từ LNTT</h3>
-                <p class="newsletter__desc">Thông tin sản phẩm mới nhất và chương trình khuyến mãi</p>
-                <div class="newsletter__email fl">
-                    <div class="newsletter__email-wrap fl spbw">
-                        <input type="email" placeholder="Email của bạn" class="newsletter__input">
-                    <button class="newsletter__btn" >Đăng ký</button>
-                    </div>
+<footer class="footer-32892 pb-0">
+    <div class="site-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md pr-md-5 mb-4 mb-md-0">
+                    <h3>Thông tin thêm</h3>
+                    <p class="mb-4">Sau hơn 10 năm hoạt động, bằng những nỗ lực không mệt mỏi, trung thành với chính
+                        sách “tận tâm phục vụ khách hàng”, HHA Shop đã trở thành chuỗi bán lẻ hàng công nghệ hàng đầu,
+                        là nhà bán lẻ Apple chính hãng hàng đầu với đầy đủ các chuẩn cửa hàng từ cấp độ cao cấp nhất.
+                        HHA Shop đã, đang và sẽ tiếp tục chuyển đổi số một cách mạnh mẽ để nâng cao trải nghiệm khách
+                        hàng.</p>
+                    <ul class="list-unstyled quick-info mb-4">
+                        <li><a href="#" class="d-flex align-items-center"><span class="icon mr-3 icon-phone"></span> +1
+                                291 3912 329</a></li>
+                        <li><a href="#" class="d-flex align-items-center mt-3"><span class="icon mr-3 icon-envelope"></span>
+                                info@gmail.com</a></li>
+                    </ul>
+
+                    <form action="#" class="subscribe" class="mt-3">
+                        <input type="text" class="form-control" placeholder="Enter your e-mail">
+                        <input type="submit" class="btn btn-submit" value="Send">
+                    </form>
                 </div>
-            </div>
-            <div class="footer">
-                <div class="container text-center">
-                    <div class="row pd-bottom32">
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <h3 class="footer__heading ">Chăm sóc khách hàng</h3>
-                            <ul class="footer__list">
-                                <li class="footer__list-item">
-                                    <a href="" class="footer__list-item-link">Trung tâm trợ giúp</a>
-                                </li>
-                                <li class="footer__list-item">
-                                    <a href="" class="footer__list-item-link">Hướng dẫn mua hàng</a>
-                                </li>
-                                <li class="footer__list-item">
-                                    <a href="" class="footer__list-item-link">Liên hệ</a>
-                                </li>
-                            </ul>
+                <div class="col-md mb-4 mb-md-0">
+                    <h3>Góc khách hàng</h3>
+                    <ul class="list-unstyled">
+                        <li class="d-flex">
+                            <div class="mr-4"><span class="fa-solid fa-check"></span></div>
+                            <div class="d-block">Tư vấn mua hàng (Miễn phí)</div>
+                        </li>
+                        <li>
+                            <div class="d-block text-danger mt-2">- 1800 6601 (Nhánh 1)</div>
+                        </li>
+                        <li class="d-flex mt-4">
+                            <div class="mr-4"><span class="fa-solid fa-check"></span></div>
+                            <div class="d-block">Hỗ trợ kỹ thuật</div>
+                        </li>
+                        <li>
+                            <div class="d-block text-danger mt-2">- 1800 6601 (Nhánh 2)</div>
+                        </li>
+                        <li class="d-flex mt-4">
+                            <div class="mr-4"><span class="fa-solid fa-check"></span></div>
+                            <div class="d-block">Góp ý khiếu nại (8h00 - 22h00)</div>
+                        </li>
+                        <li>
+                            <div class="d-block text-danger mt-2">- 1800 6616</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h3>Image</h3>
+                    <div class="row gallery">
+                        <div class="col-6">
+                            <a href="#"><img src="img/phone1.jpg" alt="Image" class="img-fluid"></a>
+                            <a href="#"><img src="img/phone2.jpg" alt="Image" class="img-fluid"></a>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <h3 class="footer__heading">Giới thiệu</h3>
-                            <ul class="footer__list">
-                                <li class="footer__list-item">
-                                    <a href="" class="footer__list-item-link">Giới thiệu</a>
-                                </li>
-                                <li class="footer__list-item">
-                                    <a href="" class="footer__list-item-link">Tuyển dụng</a>
-                                </li>
-                                <li class="footer__list-item">
-                                    <a href="" class="footer__list-item-link">Điều khoản</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <h3 class="footer__heading">Chính sách</h3>
-                            <ul class="footer__list">
-                                <li class="footer__list-item">
-                                    <a href="" class="footer__list-item-link">Đổi trả</a>
-                                </li>
-                                <li class="footer__list-item">
-                                    <a href="" class="footer__list-item-link">Giao hàng</a>
-                                </li>
-                                <li class="footer__list-item">
-                                    <a href="" class="footer__list-item-link">Thu cũ đổi mới</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <h3 class="footer__heading">Theo dõi</h3>
-                            <ul class="footer__list">
-                                <li class="footer__list-item">
-                                    <a href="" class="footer__list-item-link">
-                                        <i class="fa-brands fa-facebook"></i>
-                                        Facebook
-                                    </a>
-                                </li>
-                                <li class="footer__list-item">
-                                    <a href="" class="footer__list-item-link">
-                                        <i class="fa-brands fa-instagram"></i>
-                                        Instagram
-                                    </a>
-                                </li>
-                                <li class="footer__list-item">
-                                    <a href="" class="footer__list-item-link">
-                                        <i class="fa-brands fa-twitter"></i>
-                                        Twitter
-                                    </a>
-                                </li>
-                            </ul>
+                        <div class="col-6">
+                            <a href="#"><img src="img/phone3.jpg" alt="Image" class="img-fluid"></a>
+                            <a href="#"><img src="img/phone4.png" alt="Image" class="img-fluid"></a>
                         </div>
                     </div>
                 </div>
-                <div class="footer__bottom">
-                    <p class="footer__bottom-text">
-                        Bản quyền thuộc ...
-                    </p>
+
+                <div class="col-12">
+                    <div class="py-5 footer-menu-wrap d-md-flex align-items-center">
+                        <ul class="list-unstyled footer-menu mr-auto">
+                            <li><a href="index.php">Trang chủ</a></li>
+                            <li><a href="intro.php">Giới thiệu</a></li>
+                            <li><a href="news.php">Tin tức</a></li>
+                        </ul>
+                        <div class="site-logo-wrap ml-auto">
+                            <a href="#" class="site-logo">
+                                HHA
+                            </a>
+                        </div>
+                    </div>
                 </div>
+
             </div>
-        </footer>
-    
+        </div>
+    </div>
+</footer>
