@@ -236,7 +236,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         </a>
                     </li>
                     <li>
-                        <a href="blog_list.php" class="navbar__mb-link">
+                        <a href="news.php" class="navbar__mb-link">
                             <i class="fa-solid fa-newspaper min_width25px"></i>
                             Tin tức
                         </a>
@@ -252,7 +252,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <ul class="header__list">
                     <li class="header__item"><a href="index.php" class="header__item-link">Trang chủ</a></li>
                     <li class="header__item"><a href="intro.php" class="header__item-link">Giới thiệu</a></li>
-                    <li class="header__item"><a href="blog_list.php" class="header__item-link">Tin tức</a></li>
+                    <li class="header__item"><a href="news.php" class="header__item-link">Tin tức</a></li>
                 </ul>
             </div>
             <div class="header_right fl">

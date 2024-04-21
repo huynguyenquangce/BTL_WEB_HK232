@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -115,13 +116,13 @@
             <div class="container">
                 <div class="row justify-content-center w-100 mt-4" style="font-size: 40px;">Giới thiệu về công ty</div>
                 <div class="row mt-3">
-                    <div class="col-md-6 col-12 fs-3">“Kính gửi Quý cổ đông, khách hàng và toàn thể cán bộ nhân viên FPT
+                    <div class="col-md-6 col-12 fs-3">“Kính gửi Quý cổ đông, khách hàng và toàn thể cán bộ nhân viên HHA
                         Retail,
                         Chúng ta vừa trải qua năm 2021 đầy khó khăn và thách thức. Đây là năm thứ hai đại dịch COVID-19
                         bùng phát mạnh mẽ, chi phối mọi hoạt động kinh tế - xã hội trên toàn thế giới. Việt Nam là một
                         trong những quốc gia chịu ảnh hưởng nặng nề của dịch bệnh, tăng trưởng kinh tế năm 2021 chỉ ở
                         mức 2,58%, thấp nhất trong vòng 30 năm qua. Tuy nhiên trong bối cảnh đó, tập thể cán bộ nhân
-                        viên FPT Retail đã không ngừng nỗ lực vượt qua khó khăn, đạt được những thành tựu nhất định,
+                        viên HHA Retail đã không ngừng nỗ lực vượt qua khó khăn, đạt được những thành tựu nhất định,
                         đánh dấu chặng đường 10 năm hình thành và phát triển.
 
                         Năm 2021, FRT có kết quả kinh doanh ấn tượng, doanh thu luỹ kế đạt 22.495 tỷ đồng, tăng trưởng
@@ -130,14 +131,14 @@
                         tăng trưởng mạnh mẽ của chuỗi Long Châu với doanh thu đạt 3.977 tỷ đồng, tăng 3,3 lần so với năm
                         2020, trở thành chuỗi nhà thuốc dẫn đầu thị trường với 400 nhà thuốc trải khắp 53 tỉnh thành.
                         Doanh thu online cả năm 2021 đạt 6.285 tỷ đồng, chiếm 28% tổng doanh thu. Khoảng thời gian dài
-                        đóng cửa do giãn cách, kết quả kinh doanh Quý 4 cải thiện rõ rệt. Trong đó, FPT Shop,
-                        F. Studio by FPT gặt hái nhiều thành tích trong mảng kinh doanh sản phẩm Apple chính hãng khi mở
+                        đóng cửa do giãn cách, kết quả kinh doanh Quý 4 cải thiện rõ rệt. Trong đó, HHA Shop,
+                        F. Studio by HHA gặt hái nhiều thành tích trong mảng kinh doanh sản phẩm Apple chính hãng khi mở
                         bán thành công iPhone 13 series và Macbook Pro 2021, đưa doanh thu toàn ngành hàng Apple năm
                         2021 tăng gấp 1,6 lần so với năm 2020. Chỉ riêng trong Quý 4, gần 100 cửa hàng Long Châu được mở
                         mới, nhờ đó Long Châu đã vượt mục tiêu mở mới 150 cửa hàng đặt ra đầu năm 2021.
                         FRT tiếp tục giữ vững vị thế nhà bán lẻ Laptop số 1 thị trường và là chuỗi bán lẻ hàng công nghệ
                         đứng thứ 2 trên thị trường. Ðịa điểm kinh doanh đắc địa, vị trí trung tâm luôn là lợi thế cạnh
-                        tranh, khiến hình ảnh của FPT Shop hiện hữu và tiếp cận được tối đa khách hàng. Công ty thực
+                        tranh, khiến hình ảnh của HHA Shop hiện hữu và tiếp cận được tối đa khách hàng. Công ty thực
                         hiện tối ưu hóa doanh thu trên mỗi cửa hàng bằng cách bán chéo các sản phẩm theo hình thức
                         shop-in-shop. Công ty tối ưu hóa chi phí hoạt động tại cửa hàng bằng cách tăng năng suất lao
                         động và ứng dụng công nghệ mới. Ðối mặt với tình hình dịch bệnh kéo dài, Công ty tập trung phát
@@ -152,26 +153,26 @@
                         sáng hơn trong năm 2022. Đồng thời, nền kinh tế hậu COVID-19 dần chuyển dịch sang nền kinh tế
                         số, đây là một thế mạnh và là chiến lược mà FRT đã theo đuổi từ lâu cùng với sự hỗ trợ, tư vấn
                         từ tập đoàn HHA.
-                        Với sự phát triển của thương mại điện tử, bên cạnh các cửa hàng truyền thống, FPT Retail đẩy
+                        Với sự phát triển của thương mại điện tử, bên cạnh các cửa hàng truyền thống, HHA Retail đẩy
                         mạnh bán hàng trực tuyến bằng ứng dụng công nghệ vào nguồn dữ liệu khách hàng để tăng trải
                         nghiệm mua sắm. FRT đang thực hiện chuyển đổi số toàn diện, trên các mặt gồm nghiệp vụ, công
                         nghệ và trải nghiệm người dùng. Công ty cũng đã xây dựng trung tâm phân tích dữ liệu với công
                         nghệ, mô hình phân tích tốt nhất, tập trung phân tích nhóm đối tượng khách hàng, phục vụ cá thể
-                        hoá nhu cầu từng khách hàng. Ngoài ra, FPT Retail cũng đã và đang triển khai các phần mềm quản
+                        hoá nhu cầu từng khách hàng. Ngoài ra, HHA Retail cũng đã và đang triển khai các phần mềm quản
                         lý nội bộ do chính công ty nghiên cứu và phát triển để quản lý vận hành và kinh doanh chính xác,
                         kịp thời nhất.
                         Trải qua 10 năm hoạt động, bước sang năm thứ 6 là công ty đại chúng, cùng với sự đồng lòng và
-                        tận tâm của đội ngũ gần 10.000 nhân viên, FPT Retail mang đầy hy vọng về một năm 2022 phát triển
+                        tận tâm của đội ngũ gần 10.000 nhân viên, HHA Retail mang đầy hy vọng về một năm 2022 phát triển
                         mạnh mẽ, chinh phục mọi thách thức, đem đến cho các nhà đầu tư lợi ích và giá trị doanh nghiệp
                         gia tăng không ngừng.
 
-                        Với phương châm "Tận tâm", FPT Retail sẽ cố gắng hết sức, làm hết trách nhiệm và hết khả năng
+                        Với phương châm "Tận tâm", HHA Retail sẽ cố gắng hết sức, làm hết trách nhiệm và hết khả năng
                         của từng cá nhân để thể hiện tấm lòng thành tâm nhất, trân quý nhất đến từng khách hàng.
 
                         Cuối cùng, thay mặt Hội đồng quản trị, tôi xin trân trọng cảm ơn sự tín nhiệm và ủng hộ của các
                         Quý vị cổ đông, cảm ơn niềm tin của Quý đối tác và Quý khách hàng. Đồng thời, tôi cũng gửi lời
                         cảm ơn chân thành nhất đến toàn bộ đội ngũ nhân viên Công ty đã, đang và sẽ cùng tôi xây dựng
-                        một FPT Retail rực rỡ hơn trong tương lai.”
+                        một HHA Retail rực rỡ hơn trong tương lai.”
                     </div>
                 </div>
             </div>
@@ -205,6 +206,40 @@
                 </div>
             </div>
             <!-- End Dashboard -->
+            <!-- Info 2 -->
+            <div class="container" style="margin-top:60px;">
+                <div class="row">
+                    <div class="col-md-5 col-12">
+                        <img src="./img/BKU.jpeg" alt="BKU image" class="d-block mx-auto">
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-5 col-12 text-start mt-5 mt-md-0">
+                        <div class="row fs-3">HHA là công ty tiên phong chuyển đổi số và dẫn đầu về tư vấn, cung cấp,
+                            triển khai các dịch vụ, giải pháp công nghệ - viễn thông. Chúng tôi đồng hành cùng các khách
+                            hàng tại 30 quốc gia và vùng lãnh thổ trên toàn cầu hiện thực hóa chiến lược, mục tiêu phát
+                            triển kinh doanh dựa trên công nghệ.
+
+                            Với kinh nghiệm triển khai dự án trên phạm vi toàn cầu trong suốt hơn ba thập kỷ qua, chúng
+                            tôi
+                            giúp khách hàng vượt qua những thách thức, rào cản và đạt được hiệu quả cao nhất trong hành
+                            trình chuyển đổi số. Dựa trên những công nghệ mới nhất trí tuệ nhân tạo, phân tích dữ liệu
+                            lớn,
+                            điện toán đám mây, tự động hóa, kết nối vạn vật…, chúng tôi đưa ra những giải pháp, dịch vụ
+                            công
+                            nghệ tiên tiến giúp khách hàng chủ động, linh hoạt thích ứng trong mọi bối cảnh.</div>
+                        <div class="row fs-3 mt-4 justify-content-center justify-content-md-start">Tìm hiểu thêm về chúng tôi:</div>
+                        <ul class="list-unstyled mt-3 justify-content-center justify-content-md-start d-flex">
+                            <li class="d-inline-block me-3"><a href="#" class="fb"><i class="fa-brands fa-square-facebook" style="font-size:30px"></i></a></li>
+                            <li class="d-inline-block mx-3"><a href="#" class="tw"><i class="fa-brands fa-twitch" style="font-size:30px"></i></a>
+                            </li>
+                            <li class="d-inline-block mx-3"><a href="#" class="in"><i class="fa-brands fa-twitter" style="font-size:30px"></i></a>
+                            </li>
+                            <li class="d-inline-block mx-3"><a href="#" class="be"><i class="fa-brands fa-youtube" style="font-size:30px"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
         <?php include ("pages/footer.php") ?>
     </div>
