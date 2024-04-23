@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
+<<<<<<< HEAD
+-- Thời gian đã tạo: Th4 23, 2024 lúc 10:26 AM
+=======
 -- Thời gian đã tạo: Th4 23, 2024 lúc 08:07 AM
+>>>>>>> 73ba98d461a8c51a492eda2e5a3686694c3b5690
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.2.12
 
@@ -43,7 +47,10 @@ INSERT INTO `account` (`id`, `username`, `password`, `email`, `image`) VALUES
 (13, 'admin', '12345', 'admin@gmail.com', '2113518_AnhTheSinhVien.jpg.jpg'),
 (14, 'huyquang123', '12345678', 'huy.nguyenquangk21ce@hcmut.edu.vn', '66222a01d3208.jpg'),
 (15, 'quan123', '987654321', '222@gmail.com', 'avatar.jpg'),
-(17, 'khanh.trankiwi', '12345', 'dsadada@gmail.com', 'avatar.jpg');
+(17, 'khanh.trankiwi', '12345', 'dsadada@gmail.com', 'avatar.jpg'),
+(18, 'khanh.trankiwi2', '123452', 'dsadada2@gmail.com', 'phone2.jpg'),
+(20, 'La Minh Duc', '12345', 'laminhduc2003@gmail.com', 'HN.jpg'),
+(21, 'huynguyen16103', '12345', 'huy1508@gmail.com', '6627634f6b374.png');
 
 -- --------------------------------------------------------
 
@@ -73,6 +80,47 @@ INSERT INTO `brand` (`brand_id`, `brand_name`, `brand_image`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Cấu trúc bảng cho bảng `new`
+--
+
+CREATE TABLE `new` (
+  `new_id` int(11) NOT NULL,
+  `new_title` text NOT NULL,
+  `new_tag` text NOT NULL,
+  `new_img` text NOT NULL,
+  `new_content` text NOT NULL,
+  `view_count` int(11) NOT NULL,
+  `date` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `new`
+--
+
+INSERT INTO `new` (`new_id`, `new_title`, `new_tag`, `new_img`, `new_content`, `view_count`, `date`) VALUES
+(6, 'Mobile 5', 'Công nghệ', './thumbnail/phone3.png', '<p>Đ&acirc;y l&agrave; một nội dung ng&agrave;y 09/04/2023</p>', 0, '2024-04-23');
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `new_tag`
+--
+
+CREATE TABLE `new_tag` (
+  `tag_id` int(11) NOT NULL,
+  `tag_name` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `new_tag`
+--
+
+INSERT INTO `new_tag` (`tag_id`, `tag_name`) VALUES
+(1, 'Công nghệ');
+
+-- --------------------------------------------------------
+
+--
 -- Cấu trúc bảng cho bảng `product`
 --
 
@@ -94,6 +142,10 @@ CREATE TABLE `product` (
 -- Đang đổ dữ liệu cho bảng `product`
 --
 
+<<<<<<< HEAD
+INSERT INTO `product` (`product_id`, `product_name`, `image`, `image_desc_1`, `image_desc_2`, `image_desc_3`, `price`, `description`, `brand_id`, `discount`, `rating_tb`) VALUES
+(4, 'alo123', 'không có', 'không có', 'không có', 'không có', '345232', '3123131', 1, '3123131', '2');
+=======
 INSERT INTO `product` (`products_id`, `products_name`, `image`, `image_desc_1`, `image_desc_2`, `image_desc_3`, `price`, `description`, `brand_id`, `discount`, `rating_tb`) VALUES
 (14, 'iPhone 15 Pro Max', 'https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/30/638342502751589917_ip-15-pro-max-dd-bh-2-nam.jpg', 'https://images.fpt.shop/unsafe/fit-in/665x374/filters:quality(100):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/12/638327041739564335_iphone-15-pro-max-5.jpg', 'https://images.fpt.shop/unsafe/fit-in/665x374/filters:quality(100):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/12/638327041739877048_iphone-15-pro-max-2.jpg', 'https://images.fpt.shop/unsafe/fit-in/665x374/filters:quality(100):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/12/638327041738940000_iphone-15-pro-max-12.jpg', '29.590.000', 'Không', 1, '34.990.000', '4.7'),
 (16, 'iPhone 15 Plus', 'https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/10/30/638342507329455238_ip-15-plus-dd-bh-2-nam.jpg', 'https://images.fpt.shop/unsafe/fit-in/665x374/filters:quality(100):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/13/638302007166386978_1_iPhone_15_Plus_Lineup_Screen__WWEN.jpg', 'https://images.fpt.shop/unsafe/fit-in/665x374/filters:quality(100):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/13/638302007167793202_5_VN_iPhone_15_Plus_Blue_PDP_Image_Position-4_Design_Detail_Colors.jpg', 'https://images.fpt.shop/unsafe/fit-in/665x374/filters:quality(100):fill(white)/fptshop.com.vn/Uploads/Originals/2023/9/13/638302007254013075_iPhone_15_Plus_iPhone_15_Pink_Combo_Screen__WWEN.jpg', '22.590.000', 'Không', 1, '25.990.000', '5'),
@@ -144,6 +196,7 @@ INSERT INTO `reviews` (`cmt_id`, `pr_id`, `name`, `rating`, `comment`, `time`) V
 (129, 14, 'Chu Lợi', 4, 'Xấu', '2023-04-25 16:55:39'),
 (130, 16, 'Admin', 5, 'Tốt', '2023-04-26 07:37:38'),
 (133, 32, 'ngoquanghai', 5, 'test', '2024-04-16 11:50:15');
+>>>>>>> 73ba98d461a8c51a492eda2e5a3686694c3b5690
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -160,6 +213,18 @@ ALTER TABLE `account`
 --
 ALTER TABLE `brand`
   ADD PRIMARY KEY (`brand_id`);
+
+--
+-- Chỉ mục cho bảng `new`
+--
+ALTER TABLE `new`
+  ADD PRIMARY KEY (`new_id`);
+
+--
+-- Chỉ mục cho bảng `new_tag`
+--
+ALTER TABLE `new_tag`
+  ADD PRIMARY KEY (`tag_id`);
 
 --
 -- Chỉ mục cho bảng `product`
@@ -182,7 +247,7 @@ ALTER TABLE `reviews`
 -- AUTO_INCREMENT cho bảng `account`
 --
 ALTER TABLE `account`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT cho bảng `brand`
@@ -191,9 +256,24 @@ ALTER TABLE `brand`
   MODIFY `brand_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
+-- AUTO_INCREMENT cho bảng `new`
+--
+ALTER TABLE `new`
+  MODIFY `new_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- AUTO_INCREMENT cho bảng `new_tag`
+--
+ALTER TABLE `new_tag`
+  MODIFY `tag_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
 -- AUTO_INCREMENT cho bảng `product`
 --
 ALTER TABLE `product`
+<<<<<<< HEAD
+  MODIFY `product_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+=======
   MODIFY `products_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 
 --
@@ -201,6 +281,7 @@ ALTER TABLE `product`
 --
 ALTER TABLE `reviews`
   MODIFY `cmt_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=134;
+>>>>>>> 73ba98d461a8c51a492eda2e5a3686694c3b5690
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
