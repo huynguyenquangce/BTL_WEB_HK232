@@ -75,7 +75,7 @@
             <!-- content -->
             <?php
             include 'connectDB.php';
-            $item_per_page = !empty($_GET['per_page']) ? $_GET['per_page'] : 4;
+            $item_per_page = !empty($_GET['per_page']) ? $_GET['per_page'] : 3;
             $current_page = !empty($_GET['page']) ? $_GET['page'] : 1; //Trang hiện tại
             $offset = ($current_page - 1) * $item_per_page;
             $new = mysqli_query($conn, "SELECT * FROM new ORDER BY `new_id` ASC  LIMIT " . $item_per_page . " OFFSET " . $offset);
@@ -84,28 +84,32 @@
             $totalPages = ceil($totalRecords / $item_per_page);
             ?>
             <div class="container mt-5">
-            <div class="row justify-content-center w-100 mt-4" style="font-size: 40px;">Tin tức công ty</div>
-                <div class="product-items">
+                <div class="row justify-content-center w-100 mt-4 col-12" style="font-size: 40px;">Tin tức</div>
+                <div class="row">
+                    <div class="product-items">
+                        <?php
+                        while ($row = mysqli_fetch_array($new)) {
+                            ?>
+                            <div class="product-item col-12 col-md-4">
+                                <div class="product-img">
+                                    <img src="admin/adminql/new/<?php echo $row['new_img'] ?>"
+                                        title="<?php echo $row['new_title'] ?>" />
+                                </div>
+                                <strong><?php echo $row['new_title'] ?></strong><br />
+                                <label>Tag: <div class="btn btn-info"><a href="news_category.php"
+                                            class="text-white"><?php echo $row['new_tag']; ?></a></div></label><br />
+                                <p class="content-2-lines"><?= $row['new_content'] ?></p>
+                                <div class="buy-button">
+                                    <a href="news_detail.php?new_id=<?php echo $row['new_id']?>">Xem bài viết</a>
+                                </div>
+                            </div>
+                        <?php } ?>
+                        <div class="clear-both"></div>
+                        <div class="clear-both"></div>
+                    </div>
                     <?php
-                    while ($row = mysqli_fetch_array($new)) {
+                        include './pagination.php';
                         ?>
-                        <div class="product-item">
-                            <div class="product-img">
-                                <img src="admin/adminql/new/<?php echo $row['new_img'] ?>" title="<?php echo $row['new_title'] ?>" />
-                            </div>
-                            <strong><?php echo $row['new_title'] ?></strong><br />
-                            <label>Tag: <?php echo $row['new_tag']; ?></label><br />
-                            <p><?= $row['new_content'] ?></p>
-                            <div class="buy-button">
-                                <a href="">Xem bài viết</a>
-                            </div>
-                        </div>
-                    <?php } ?>
-                    <div class="clear-both"></div>
-                    <?php
-                    include './pagination.php';
-                    ?>
-                    <div class="clear-both"></div>
                 </div>
             </div>
             <!-- end content  -->
@@ -121,111 +125,116 @@
     <script src="./js/main.js"></script>
     <script src="./js/main1.js"></script>
     <style>
-    body {
-        font-family: arial;
-    }
+        body {
+            font-family: arial;
+        }
+        .content-2-lines {
+            height: 20px;
+            overflow: hidden;
+        }
+        h1 {
+            text-align: center;
+        }
 
-    .container {
-        width: 1200px;
-        margin: 0 auto;
-    }
+        .product-items {
+            /* border: 1px solid #ccc;
+            padding: 30px; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            border: 1px solid #ccc;
+            padding: 30px;
+        }
 
-    h1 {
-        text-align: center;
-    }
+        .product-item {
+            /* float: left;
+            width: 23%;
+            margin: 1%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            line-height: 26px; */
+            width: calc(25% - 20px); /* Sử dụng calc để tính toán chiều rộng chính xác */
+            margin-bottom: 20px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+        }
 
-    .product-items {
-        border: 1px solid #ccc;
-        padding: 30px;
-    }
+        .product-item label {
+            font-weight: bold;
+        }
 
-    .product-item {
-        float: left;
-        width: 23%;
-        margin: 1%;
-        padding: 10px;
-        box-sizing: border-box;
-        border: 1px solid #ccc;
-        line-height: 26px;
-    }
+        .product-item p {
+            margin: 0;
+            line-height: 26px;
+            max-height: 52px;
+            overflow: hidden;
+        }
 
-    .product-item label {
-        font-weight: bold;
-    }
+        .product-price {
+            color: red;
+            font-weight: bold;
+        }
 
-    .product-item p {
-        margin: 0;
-        line-height: 26px;
-        max-height: 52px;
-        overflow: hidden;
-    }
+        .product-img {
+            padding: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 5px;
+        }
 
-    .product-price {
-        color: red;
-        font-weight: bold;
-    }
+        .product-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
 
-    .product-img {
-        padding: 5px;
-        border: 1px solid #ccc;
-        margin-bottom: 5px;
-    }
+        .product-item ul {
+            margin: 0;
+            padding: 0;
+            border-right: 1px solid #ccc;
+        }
 
-    .product-item img {
-        max-width: 100%;
-    }
+        .product-item ul li {
+            float: left;
+            width: 33.3333%;
+            list-style: none;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-right: 0;
+            box-sizing: border-box;
+        }
 
-    .product-item ul {
-        margin: 0;
-        padding: 0;
-        border-right: 1px solid #ccc;
-    }
+        .clear-both {
+            clear: both;
+        }
 
-    .product-item ul li {
-        float: left;
-        width: 33.3333%;
-        list-style: none;
-        text-align: center;
-        border: 1px solid #ccc;
-        border-right: 0;
-        box-sizing: border-box;
-    }
-
-    .clear-both {
-        clear: both;
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    .buy-button {
-        text-align: right;
-        margin-top: 10px;
-    }
-
-    .buy-button a {
-        background: #444;
-        padding: 5px;
-        color: #fff;
-    }
-
-    #pagination {
-        text-align: right;
-        margin-top: 15px;
-    }
-
-    .page-item {
-        border: 1px solid #ccc;
-        padding: 5px 9px;
-        color: #000;
-    }
-
-    .current-page {
-        background: #000;
-        color: #FFF;
-    }
-</style>
+        a {
+            text-decoration: none;
+        }
+        .buy-button {
+            text-align: right;
+            margin-top: 10px;
+        }
+        .buy-button a {
+            background: #444;
+            padding: 5px;
+            color: #fff;
+        }
+        #pagination {
+            text-align: right;
+            margin-top: 15px;
+        }
+        .page-item {
+            border: 1px solid #ccc;
+            padding: 5px 9px;
+            color: #000;
+        }
+        .current-page {
+            background: #000;
+            color: #FFF;
+        }
+    </style>
 </body>
 
 </html>

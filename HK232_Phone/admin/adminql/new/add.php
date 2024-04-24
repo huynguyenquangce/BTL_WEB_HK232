@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $new_tag = $_POST['new_tag'];
     $time = new DateTime("now", new DateTimeZone('Asia/Ho_Chi_Minh') );
     $date = $time ->format('Y-m-d');
-    $new_content = $_POST['content'];
+    $new_content = mysqli_real_escape_string($conn,$_POST['content']);
     $imgName = $_FILES["thumbnail"]["name"];
     $tmpname = $_FILES["thumbnail"]["tmp_name"];
     $des = "./thumbnail/".$imgName;

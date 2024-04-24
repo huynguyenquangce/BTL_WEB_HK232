@@ -209,10 +209,10 @@
             <!-- Info 2 -->
             <div class="container" style="margin-top:60px;">
                 <div class="row">
-                    <div class="col-md-5 col-12">
-                        <img src="./img/BKU.jpeg" alt="BKU image" class="d-block mx-auto">
+                    <div class="col-md-6 col-12">
+                        <img src="./img/Shop.jpg" alt="BKU image" class="d-block mx-auto w-100">
                     </div>
-                    <div class="col-md-2"></div>
+                    <div class="col-md-1 col-0"></div>
                     <div class="col-md-5 col-12 text-start mt-5 mt-md-0">
                         <div class="row fs-3">HHA là công ty tiên phong chuyển đổi số và dẫn đầu về tư vấn, cung cấp,
                             triển khai các dịch vụ, giải pháp công nghệ - viễn thông. Chúng tôi đồng hành cùng các khách
@@ -249,7 +249,6 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/main1.js"></script>
-
 </body>
 
 </html>
