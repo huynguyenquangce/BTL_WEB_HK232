@@ -245,7 +245,7 @@ if ($result_rating_avg && $result_rating_avg->num_rows > 0) {
                   <div class="modal-content">
                     <!-- Modal Header -->
                     <div class="modal-header">
-                      <h4 class="modal-title">Thông số kỹ thuật PC HP AIO 22-df1043d i5-1135G7/8GB/256GB/Win11 (601L9PA)</h4>
+                      <h3 class="modal-title">Thông số kỹ thuật</h3>
                       <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -253,41 +253,39 @@ if ($result_rating_avg && $result_rating_avg->num_rows > 0) {
                     <div class="modal-body">
                       <ul class="list-group">
                         <li class="list-group-item list-group-item-secondary">
-                          <h5>Bộ xử lí</h5>
+                          <h4>Thiết kế & Trọng lượng</h4>
+                        <li class ="list-group-item list-group-item-light "> <b>Kích thước: </b>159.9 x 76.7 x 8.25 mm</li>
+                        <li class="list-group-item list-group-item-light"><b>Trọng lượng sản phẩm: </b> 	221 g</li>
+                        <li class="list-group-item list-group-item-light"><b>Chuẩn kháng nước / Bụi bẩn: </b>IP68</li>
+                        <li class="list-group-item list-group-item-light"><b>Chất liệu: </b>Khung máy: Titanium</li>
                         </li>
-                        <li class="list-group-item list-group-item-light"><b>Công nghệ CPU:</b> Intel Core i5 Tiger Lake - 11400H</li>
-                        <li class="list-group-item list-group-item-light"><b>Số nhân</b>: 6</li>
-                        <li class="list-group-item list-group-item-light"><b>Số luồng</b>: 12</li>
-                        <li class="list-group-item list-group-item-light"><b>Tốc độ CPU</b>: 2.70 GHz</li>
-                        <li class="list-group-item list-group-item-light"><b>Turbo Boost:</b> 4.5 GHz</li>
-                        <li class="list-group-item list-group-item-light"><b>Bộ nhớ đệm:</b> 12 MB</li>
-                        <li class="list-group-item list-group-item-secondary">
-                          <h5>Bộ nhớ RAM, Ổ cứng</h5>
+                        <li class="list-group-item list-group-item-secondary">   
+                          <h4>Bộ xử lí</h4>
+                        <li class="list-group-item list-group-item-light"><b>Phiên bản CPU:</b> Apple A17 Pro</li>
+                        <li class="list-group-item list-group-item-light"><b>Loại CPU</b>: 6 - Core</li>
                         </li>
-                        <li class="list-group-item list-group-item-light"><b>RAM:</b> 8 GB</li>
-                        <li class="list-group-item list-group-item-light"><b>Loại RAM:</b> DDR4 2 khe (1 khe 8 GB + 1 khe rời)
-                        <li class="list-group-item list-group-item-light"><b>Tốc độ Bus RAM:</b> 3200 MHz
-                        <li class="list-group-item list-group-item-light"><b>Hỗ trợ RAM tối đa:</b> 32 GB
-                        <li class="list-group-item list-group-item-light"><b>Ổ cứng:</b>
-                          <ul>
-                            <li>512 GB SSD NVMe PCIe (Có thể tháo ra, lắp thanh khác tối đa 1 TB)</li>
-                            <li>Hỗ trợ khe cắm HDD SATA (nâng cấp tối đa 2 TB)</li>
-                            <li>Hỗ trợ thêm 1 khe cắm SSD M.2 PCIe mở rộng (nâng cấp tối đa 1 TB)</li>
+                        <li class="list-group-item list-group-item-secondary"> 
+                          <h4>RAM và lưu trữ</h4>
+                        <li class="list-group-item list-group-item-light"><b>RAM </b> 8 GB</li>
+                        <li class="list-group-item list-group-item-light"><b>Bộ nhớ trong </b> 256 GB </li>
+                        <li class="list-group-item list-group-item-light"><b>Khe cắm thẻ nhớ</b> Không </li>
+                        </li> 
+                        <li class="list-group-item list-group-item-secondary"> 
+                          <h4>Màn hình</h4>
+                        <li class="list-group-item list-group-item-light"><b>Kích thước màn hình </b> 6.7 inches </li>
+                        <li class="list-group-item list-group-item-light"><b>Công nghệ màn hình </b> Super Retina XDR OLED </li>
+                        <li class="list-group-item list-group-item-light"><b>Độ phân giải màn hình</b> 2796 x 1290-pixel </li>
+                        <li class="list-group-item list-group-item-light"><b>Tính năng màn hình</b> <ul>
+                            <li>Tốc độ làm mới 120Hz</li>
+                            <li>460 ppi</li>
+                            <li>HDR</li>
+                            <li>True Tone</li>
+                            <li>Dải màu rộng (P3)</li>
+                            <li>Haptic Touch</li>
+                            <li>Tỷ lệ tương phản 2.000.000:1</li>
                           </ul>
                         </li>
-                        <li class="list-group-item list-group-item-secondary">
-                          <h5>Màn hình</h5>
-                        </li>
-                        <li class="list-group-item list-group-item-light"><b>Màn hình:</b> 15.6 inch</li>
-                        <li class="list-group-item list-group-item-light"><b>Độ phân giải:</b> Full HD (1920 x 1080)</li>
-                        <li class="list-group-item list-group-item-light"><b>Tần số quét:</b> 144 Hz</li>
-                        <li class="list-group-item list-group-item-light"><b>Công nghệ màn hình:</b>
-                          <ul>
-                            <li>512 GB SSD NVMe PCIe (Có thể tháo ra, lắp thanh khác tối đa 1 TB)</li>
-                            <li>Hỗ trợ khe cắm HDD SATA (nâng cấp tối đa 2 TB)</li>
-                            <li>Hỗ trợ thêm 1 khe cắm SSD M.2 PCIe mở rộng (nâng cấp tối đa 1 TB)</li>
-                          </ul>
-                        </li>
+                        </li> 
                         <li class="list-group-item list-group-item-secondary">
                           <h5>Đồ họa và Âm thanh</h5>
                         </li>
