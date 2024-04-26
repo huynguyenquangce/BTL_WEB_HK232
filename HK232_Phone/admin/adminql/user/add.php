@@ -9,7 +9,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'];
     $email = $_POST['email'];
     $user_password = $_POST['user_password'];
+    // image
     $user_image = $_FILES['user-img']['name'];
+    $tmpname_user = $_FILES["user-img"]["tmp_name"];
+    $des = "../../../uploads/".$user_image;
+    move_uploaded_file($tmpname_user, $des);
     $sql = "INSERT INTO account (username,email,password,image) VALUES ('$username', '$email', '$user_password', '$user_image')";
     $result = $conn->query($sql);
     if ($result) {
