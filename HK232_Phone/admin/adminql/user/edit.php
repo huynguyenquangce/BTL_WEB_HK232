@@ -1,50 +1,49 @@
 <?php
 include "../header.php";
 include "../sidebar_left.php";
-include '../class/user_class.php';
+include "../../../connectDB.php"
 ?>
+
 <?php
-$user = new User();
-if(!isset($_GET['user_id']) || $_GET['user_id'] == '')
-{
+if (!isset($_GET['user_id']) || $_GET['user_id'] == '') {
     echo "<script>window.location = 'list.php'</script>";
-}
-else
-{
+} else {
     $user_id = $_GET['user_id'];
 }
-$get_user = $user->get_user($user_id);
-if($get_user)
-{
-    $row = $get_user->fetch_assoc();
-}
+$sql = "SELECT * FROM account WHERE id = '$user_id'";
+$result = $conn->query($sql);
+$row = $result->fetch_assoc();
 ?>
 <?php
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'];
     $email = $_POST['email'];
     $user_password = $_POST['user_password'];
-    $user_image = $_FILES['user_img']['name'];
-    $insert_user = $user->update_user($user_id,$username,$email,$user_password,$user_image);
+    $user_image = $_FILES['user-img']['name'];
+    $update_query = "UPDATE account SET username = '$username', email = '$email', password = '$user_password', image = '$user_image' WHERE id = '$user_id'";
+    $result1 = $conn->query($update_query);
+    if ($result1) {
+        echo "<script>window.location.href='list.php';</script>";
+    }
 }
 ?>
 <div class="col py-3">
-    <form action="" method="post">
+    <form action="add.php" method="post" enctype="multipart/form-data">
         <div class="form-group">
-            <div class="h2 text-primary p-4 row">Edit User:</div>
+            <div class="h2 text-primary p-4 row">Add User:</div>
             <label for="username" class="fw-bold">Nhập tên người dùng:</label>
             <input required type="text" class="form-control mt-2" id="username" placeholder="Nhập tên người dùng"
-                name="username" value ="<?php echo $row['username'];?>">
+                name="username" value="<?php echo $row['username'] ?>">
             <label for="email" class="fw-bold">Nhập Email:</label>
-            <input required type="email" class="form-control mt-2" id="email" placeholder="Nhập email" name="email" value ="<?php echo $row['email'];?>">
+            <input required type="email" class="form-control mt-2" id="email" placeholder="Nhập email" name="email"  value="<?php echo $row['email'] ?>">
             <label for="user_password" class="fw-bold">Nhập password:</label>
             <input required type="password" class="form-control mt-2" id="user_password" placeholder="Nhập password"
-                name="user_password" value ="<?php echo $row['password'];?>">
-            <label for="user_img" class="fw-bold">Upload hình ảnh cá nhân:</label>
-            <input required type="file" class="form-control mt-2" id="user_img" placeholder="Upload Avatar"
-                name="user_img">
+                name="user_password"  value="<?php echo $row['password'] ?>">
+            <label for="user-img" class="fw-bold">Ảnh người dùng:</label>
+            <input required type="file" class="form-control mt-2" id="user-img" name="user-img">
         </div>
-        <button type="submit" class="btn btn-primary mt-3">Edit</button>
+        <button type="submit" class="btn btn-primary mt-3">Update User</button>
     </form>
 </div>
 </div>

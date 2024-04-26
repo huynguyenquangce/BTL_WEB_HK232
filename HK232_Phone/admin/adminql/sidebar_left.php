@@ -11,14 +11,19 @@
                         id="menu">
                         <li>
                             <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Danh
-                                    mục</span> </a>
+                                <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Tin tức</span> </a>
                             <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                                 <li class="w-100">
-                                    <a href="categoryAdd.php" class="nav-link px-0 text-white">Thêm danh mục</a>
+                                    <a href="../new/tag_add.php" class="nav-link px-0 text-white">Thêm Tag tin tức</a>
                                 </li>
                                 <li>
-                                    <a href="categoryList.php" class="nav-link px-0 text-white">Danh sách danh mục</a>
+                                    <a href="../new/list_tag.php" class="nav-link px-0 text-white">Danh sách Tag tin tức</a>
+                                </li>
+                                <li>
+                                    <a href="../new/add.php" class="nav-link px-0 text-white">Thêm tin tức</a>
+                                </li>
+                                <li>
+                                    <a href="../new/list.php" class="nav-link px-0 text-white">Danh sách tin tức</a>
                                 </li>
                             </ul>
                         </li>
