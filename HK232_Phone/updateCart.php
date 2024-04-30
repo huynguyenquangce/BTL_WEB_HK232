@@ -1,6 +1,4 @@
 <?php
-// require_once "./Connect.php";
-// $conn = mysqli_connect("localhost", "root", "", "webbanlap");
 require("connectDB.php");
 
 $quantity = $_POST["quantity"];

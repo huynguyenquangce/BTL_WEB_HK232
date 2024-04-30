@@ -165,7 +165,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             </a>
                         </li>
                         <li>
-                            <a href="search_order.php" class="navbar__mb-link">
+                            <a href="searchOrder.php" class="navbar__mb-link">
                                 <i class="fa-solid fa-right-to-bracket min_width25px"></i>
                                 Tra cứu đơn hàng
                             </a>
@@ -207,7 +207,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             </a>
                         </li>
                         <li>
-                            <a href="search_order.php" class="navbar__mb-link">
+                            <a href="searchOrder.php" class="navbar__mb-link">
                                 <i class="fa-solid fa-right-to-bracket min_width25px"></i>
                                 Tra cứu đơn hàng
                             </a>
@@ -345,7 +345,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             <?php
                             }
                             ?>
-                            <li class="user-log-item border_tb"><a href="search_order.php" class="text-dark">Tra cứu đơn hàng</a></li>
+                            <li class="user-log-item border_tb"><a href="searchOrder.php" class="text-dark">Tra cứu đơn hàng</a></li>
 
                         </ul>
                     </div>
