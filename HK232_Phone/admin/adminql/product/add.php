@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $product_description = $_POST['description'];
     $brand_id = $_POST['brand_id'];
     $rating_tb = $_POST['rating_tb'];
-    $sql = "INSERT INTO product (product_name,image,image_desc_1,image_desc_2,image_desc_3,price,description,brand_id,discount,rating_tb) VALUES ('$product_name', '$product_image', '$product_image_desc_1', '$product_image_desc_2','$product_image_desc_3','$product_price','$product_description','$brand_id','$product_discount','$rating_tb')";
+    $sql = "INSERT INTO product (products_name,image,image_desc_1,image_desc_2,image_desc_3,price,description,brand_id,discount,rating_tb) VALUES ('$product_name', '$product_image', '$product_image_desc_1', '$product_image_desc_2','$product_image_desc_3','$product_price','$product_description','$brand_id','$product_discount','$rating_tb')";
     $result = $conn->query($sql);
     if ($result) {
         echo "<script>window.location.href='list.php';</script>";

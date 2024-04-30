@@ -9,7 +9,7 @@ if (!isset($_GET['product_id']) || $_GET['product_id'] == '') {
 } else {
     $product_id = $_GET['product_id'];
 }
-$sql_get = "SELECT * FROM product WHERE product_id = '$product_id'";
+$sql_get = "SELECT * FROM product WHERE products_id = '$product_id'";
 $result_get = $conn->query($sql_get);
 $row_get = $result_get->fetch_assoc();
 ?>
@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $product_description = $_POST['description'];
     $brand_id = $_POST['brand_id'];
     $rating_tb = $_POST['rating_tb'];
-    $sql = "UPDATE product SET product_name='$product_name', image='$product_image', image_desc_1='$product_image_desc_1', image_desc_2='$product_image_desc_2',image_desc_3='$product_image_desc_3', price='$product_price', description ='$product_description', brand_id='$brand_id', discount='$product_discount', rating_tb='$rating_tb' WHERE product_id='$product_id'";
+    $sql = "UPDATE product SET products_name='$product_name', image='$product_image', image_desc_1='$product_image_desc_1', image_desc_2='$product_image_desc_2',image_desc_3='$product_image_desc_3', price='$product_price', description ='$product_description', brand_id='$brand_id', discount='$product_discount', rating_tb='$rating_tb' WHERE products_id='$product_id'";
     $result = $conn->query($sql);
     if ($result) {
         echo "<script>window.location.href='list.php';</script>";
@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="h2 text-primary p-4 row">Add Product:</div>
             <label for="product_name" class="fw-bold">Tên sản phẩm:</label>
             <input required type="text" class="form-control mt-2" id="product_name" placeholder="Nhập tên sản phẩm"
-                name="product_name" value="<?php echo $row_get['product_name'];?>">
+                name="product_name" value="<?php echo $row_get['products_name'];?>">
             <label for="product_img" class="fw-bold">Ảnh sản phẩm:</label>
             <input required type="text" class="form-control mt-2" id="product_img" placeholder="Nhập ảnh sản phẩm"
                 name="product_img" value="<?php echo $row_get['image'];?>">

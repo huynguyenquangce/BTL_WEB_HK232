@@ -5,7 +5,7 @@ include "../../../connectDB.php"
     ?>
 <?php
 $sql = "SELECT product.*, brand.brand_name FROM product INNER JOIN brand ON product.brand_id = brand.brand_id 
-        ORDER BY product.product_id ASC";
+        ORDER BY product.products_id ASC";
 $result = $conn->query($sql);
 $i = 0;
 ?>
@@ -31,14 +31,14 @@ $i = 0;
                         ?>
                         <tr>
                             <td><?php echo $i; ?></td>
-                            <td><?php echo $row['product_name']; ?></td>
+                            <td><?php echo $row['products_name']; ?></td>
                             <td><?php echo $row['price']; ?></td>
                             <td><?php echo $row['discount']; ?></td>
                             <td><?php echo $row['brand_name']; ?></td>
                             <td>
-                                <a href="edit.php?product_id=<?php echo $row['product_id']; ?>"
+                                <a href="edit.php?product_id=<?php echo $row['products_id']; ?>"
                                     class="btn btn-primary mx-2">Edit</a>
-                                <a href="delete.php?product_id=<?php echo $row['product_id']; ?>"
+                                <a href="delete.php?product_id=<?php echo $row['products_id']; ?>"
                                     class="btn btn-danger mx-2">Delete</a>
                             </td>
                         </tr>
