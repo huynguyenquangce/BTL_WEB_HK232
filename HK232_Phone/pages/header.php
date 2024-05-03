@@ -246,7 +246,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="header_left fl">
                 <div class="header__logo">
                     <a href="index.php">
-                        <img src="./img/ltnn.png" alt="" class="logo-img">
+                        <img src="./img/logo.jpg" alt="" class="logo-img">
                     </a>
                 </div>
                 <ul class="header__list">

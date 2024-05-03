@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HHA Phone - "Vua" Phone</title>
-    <meta name="description" content="Trang web bán laptop chất lượng với giá cả hợp lý.">
-    <meta name="keywords" content="laptop, mua laptop, giá laptop">
-    <link rel="icon" href="./img/ltnn.png">
+    <meta name="description" content="Trang web bán phone chất lượng với giá cả hợp lý.">
+    <meta name="keywords" content="phone, mua phone, giá phone">
+    <link rel="icon" href="./img/logo.png">
     <link rel="stylesheet" href="./icon/fontawesome-free-6.2.0-web/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="css/main.css">
@@ -136,7 +136,7 @@
                         bán thành công iPhone 13 series và Macbook Pro 2021, đưa doanh thu toàn ngành hàng Apple năm
                         2021 tăng gấp 1,6 lần so với năm 2020. Chỉ riêng trong Quý 4, gần 100 cửa hàng Long Châu được mở
                         mới, nhờ đó Long Châu đã vượt mục tiêu mở mới 150 cửa hàng đặt ra đầu năm 2021.
-                        FRT tiếp tục giữ vững vị thế nhà bán lẻ Laptop số 1 thị trường và là chuỗi bán lẻ hàng công nghệ
+                        FRT tiếp tục giữ vững vị thế nhà bán lẻ phone số 1 thị trường và là chuỗi bán lẻ hàng công nghệ
                         đứng thứ 2 trên thị trường. Ðịa điểm kinh doanh đắc địa, vị trí trung tâm luôn là lợi thế cạnh
                         tranh, khiến hình ảnh của HHA Shop hiện hữu và tiếp cận được tối đa khách hàng. Công ty thực
                         hiện tối ưu hóa doanh thu trên mỗi cửa hàng bằng cách bán chéo các sản phẩm theo hình thức

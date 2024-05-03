@@ -41,11 +41,11 @@ if ($result_rating_avg && $result_rating_avg->num_rows > 0) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo $row_name['products_name'] ?></title>
   <meta name="description"
-    content="Trang web bán laptop <?php echo $row_name['products_name'] ?> chất lượng với giá cả hợp lý.">
+    content="Trang web bán phone <?php echo $row_name['products_name'] ?> chất lượng với giá cả hợp lý.">
   <meta name="keywords"
-    content="laptop, mua laptop <?php echo $row_name['products_name'] ?>, giá laptop <?php echo $row_name['products_name'] ?>">
+    content="phone, mua phone <?php echo $row_name['products_name'] ?>, giá phone <?php echo $row_name['products_name'] ?>">
   <link rel="stylesheet" href="./icon/fontawesome-free-6.2.0-web/css/all.min.css">
-  <link rel="icon" href="./img/ltnn.png">
+  <link rel="icon" href="./img/logo.png">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/base.css">
@@ -102,7 +102,7 @@ if ($result_rating_avg && $result_rating_avg->num_rows > 0) {
           <div class="row gx-5 product_info product-section">
             <div class="col-lg-6 col-md-12  rounded product_info_left">
               <div class="">
-                <div class="laptop">
+                <div class="phone">
                   <div id="carouselExampleIndicators" class=" carousel carousel-dark slide slide carousel-fade"
                     data-bs-ride="carousel">
                     <div class="carousel-indicators">
