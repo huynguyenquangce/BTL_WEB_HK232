@@ -46,7 +46,9 @@
 </head>
 <body>
     <div class="app">
-        <?php include "pages/header.php" ?>
+    <?php
+    include ("pages/header.php")
+      ?>
         <div class="main">
             <div class="breadcrumb-wrap">
                 <div class="container">
@@ -70,6 +72,7 @@
                 </div>
             </div>
             <!-- Content Infomation -->
+            <div class="container">
             <div class="home-slider owl-carousel js-fullheight">
                 <div class="slider-item js-fullheight" style="background-image:url(img/HCM.jpg);">
                     <div class="overlay"></div>
@@ -240,6 +243,7 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
         <?php include ("pages/footer.php") ?>
     </div>
@@ -248,7 +252,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="./js/main.js"></script>
-    <script src="./js/main1.js"></script>
+    <script src="./js/main1.js"></script> 
 </body>
 
 </html>
